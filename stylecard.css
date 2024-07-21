@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(rgb(163, 63, 63), green, blue);
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 5px;
+}
+.card{
+    height: fit-content;
+    display: grid;
+    margin: 5px;
+    transition: 0.1s;
+    max-width: fit-content;
+    border-radius: 5px;
+    box-shadow: rgb(5px, 4px, 4px)
+    font-size: medium;
+    color: black;
+    background-color: blue;
+    
+
+}
+
+.card:hover{
+    cursor: pointer;
+    transition: 330ms;
+    
+        
+}

@@ -1,0 +1,82 @@
+body{
+    background-color: lightskyblue;
+}
+/*This is Css*/
+div{
+    height: 10vh;
+    background-color: whitesmoke;
+    color: lightcoral;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    min-width: 20%;
+    border-radius: 10px;
+    border-style: outset;
+}
+div:hover{
+    color: aliceblue;
+    background-color: blue;
+    scale: 1.5;
+    transition: 330ms;
+    cursor: pointer;
+    max-height: 40vh;
+}
+
+.Yellow{
+    color: rgb(00, 00, 255);
+    float: right;
+    min-width: 10%;
+}
+.Blue{
+    color: hsl(10, 8%, 65%);
+    min-width: 20%;
+    float: left;
+
+}
+
+.container{
+    height: 25vh;
+    background-color: green;
+    width: 97%;
+
+}
+.child{
+    min-width: 29%;
+    height: 20vh;
+    background-color: aliceblue;
+}
+.child:hover{
+    scale: 1.1;
+}
+.card{
+    width: 50%;
+    height: fit-content;
+    display: grid;
+    border-radius: 5px;
+    box-shadow: 10px 4px 0 greenyellow;
+
+}
+.card span{
+    display: none;
+}
+.card:hover{
+    cursor: pointer;
+    transition: 400ms;
+    span{
+        display: contents;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:1024px){
+body{
+        background-color:rgb(138, 23, 23);
+        display:grid;
+    }
+    div{
+        background-color:palegreen;
+        h1{
+            color: rgb(126, 50, 62);
+        }
+        
+    }
+}
